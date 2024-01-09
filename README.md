@@ -1,1 +1,2 @@
 # CBC-mode-of-Data-Encryption-Standard-DES-
+CBC is a block cipher mode of operation widely used for encryption. In CBC, each plaintext block is XORed with the previous ciphertext block before being encrypted, providing a more secure and randomized encryption pattern. It introduces dependency between blocks, making it resistant to certain types of attacks. However, CBC requires an Initialization Vector (IV) for the first block to start the chain.
